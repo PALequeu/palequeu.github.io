@@ -1,7 +1,7 @@
 ---
 title: "Fairbeat: Assessing and Mitigating Bias with the Composite Balance Score"
 collection: publications
-category: conference
+category: conferences
 permalink: /publication/Fairbeat
 excerpt: 'A user interface for social bias evaluation in tabular datasets.'
 date: 2025-09-15
