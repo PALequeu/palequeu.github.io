@@ -10,7 +10,8 @@ redirect_from:
 I am a PhD student at Sorbonne University, Paris, France under the supervision of [Benjamin Piwowarksi](https://www.piwowarski.fr/) at the ISIR laboratory. My PhD topic tackles the **Fair and Explainable Automatic Summarization of Political Debates**, with a focus on large scale citizens consultations. This PhD is part of the [Democratic Commons](https://about.make.org/democratic-commons/landing-page) project, in parternship with SciencesPo university and [Make.org](make.org). I am also a teacher assistant at Sorbonne University for bachelor and masters students.
 
 
-My research interests focus on bias and ethics of generative AI, explainable systems, and more recently on positional encoding in Transformers. My life interests are [music](https://www.youtube.com/watch?v=BnEgnrUCXPY&list=RDBnEgnrUCXPY&start_radio=1), drawing, and overall anything art.    
+My research interests focus on bias and ethics of generative AI, explainable systems, and more recently on positional encoding in Transformers. My life interests are [music](https://www.youtube.com/watch?v=BnEgnrUCXPY&list=RDBnEgnrUCXPY&start_radio=1), drawing, and overall anything art :)  
+
 
 <!-- 
 
