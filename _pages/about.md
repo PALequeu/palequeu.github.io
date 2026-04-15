@@ -13,6 +13,20 @@ I am a PhD student at Sorbonne University, Paris, France under the supervision o
 My research interests focus on bias and ethics of generative AI, explainable systems, and more recently on positional encoding in Transformers. My life interests are [music](https://www.youtube.com/watch?v=BnEgnrUCXPY&list=RDBnEgnrUCXPY&start_radio=1), drawing, and overall anything art :)  
 
 
+
+## Latest Publication
+{% assign pubs = site.publications | sort: 'date' | reverse | slice: 0, 1 %}
+{% if pubs.size > 0 %}
+{% for pub in pubs %}
+- [{{ pub.title }}]({{ pub.url | relative_url }}){% if pub.venue %} — *{{ pub.venue }}*{% endif %}{% if pub.date %} ({{ pub.date | date: "%Y" }}){% endif %}{% if pub.authors %}<br/><small>{{ pub.authors }}</small>{% endif %}
+{% endfor %}
+[View all publications →]({{ '/publications/' | relative_url }})
+{% else %}
+_No publications yet._
+{% endif %}
+
+
+
 <!-- 
 
 A data-driven personal website

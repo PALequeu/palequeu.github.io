@@ -1,7 +1,7 @@
 ---
 title: "Comment mesurer les biais politiques des grands modèles de langue multilingues?"
 collection: publications
-category: conferences (French)
+category: frenchconferences
 permalink: /publication/taln-position
 excerpt: "[Paper](https://aclanthology.org/2025.jeptalnrecital-ealm.1/) - Position paper on political bias in multilingual models."
 date: 2025-07-07
