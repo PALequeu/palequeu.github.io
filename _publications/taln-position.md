@@ -3,7 +3,7 @@ title: "Comment mesurer les biais politiques des grands modèles de langue multi
 collection: publications
 category: conferences (French)
 permalink: /publication/taln-position
-excerpt: "[\[ACLAnthology\]](https://aclanthology.org/2025.jeptalnrecital-ealm.1/) |Position paper on political bias in multilingual models."
+excerpt: "[Paper](https://aclanthology.org/2025.jeptalnrecital-ealm.1/) - Position paper on political bias in multilingual models."
 date: 2025-07-07
 venue: 'TALN (EALM workshop)'
 slidesurl: #'https://palequeu.github.io/files/slides1.pdf'

@@ -3,7 +3,7 @@ title: "The GDN-CC Dataset: Automatic Corpus Clarification for AI-enhanced Democ
 collection: publications
 category: conferences
 permalink: /publication/GDNCC
-excerpt: "[\[ArXiv\]](https://arxiv.org/abs/2601.14944) | We introduce Corpus Clarification, a preprocessing framework of citizens consultation data which allow for ethical downstream analysis. We share a manually-annotated dataset based on the 2019 French consultation 'Grand Débat National', and a large automatically annotated dataset using SLMs finetuned for the task."
+excerpt: "[Preprint](https://arxiv.org/abs/2601.14944) - We introduce Corpus Clarification, a preprocessing framework of citizens consultation data which allow for ethical downstream analysis. We share a manually-annotated dataset based on the 2019 French consultation 'Grand Débat National', and a large automatically annotated dataset using SLMs finetuned for the task."
 date: 2026-07-07
 venue: 'ACL'
 slidesurl: #'https://palequeu.github.io/files/slides1.pdf'

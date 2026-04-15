@@ -3,7 +3,7 @@ title: "Fairbeat: Assessing and Mitigating Bias with the Composite Balance Score
 collection: publications
 category: conferences
 permalink: /publication/Fairbeat
-excerpt: '[\[proceedings\]](https://link.springer.com/chapter/10.1007/978-3-032-06129-4_34) | A user interface for social bias evaluation in tabular datasets.'
+excerpt: '[Proceedings](https://link.springer.com/chapter/10.1007/978-3-032-06129-4_34) | A user interface for social bias evaluation in tabular datasets.'
 date: 2025-09-15
 venue: 'ECML-PKKD (Demo Track)'
 slidesurl: #'https://palequeu.github.io/files/slides1.pdf'
