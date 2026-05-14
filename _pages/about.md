@@ -32,7 +32,7 @@ _No publications yet._
 {% for pub in talks %}
 - [{{ pub.title }}]({{ pub.url | relative_url }}){% if pub.venue %} — *{{ pub.venue }}*{% endif %}{% if pub.date %} ({{ pub.date | date: "%Y" }}){% endif %}{% if pub.authors %}<br/><small>{{ pub.authors }}</small>{% endif %}
 {% endfor %}
-[View all publications →]({{ '/publications/' | relative_url }})
+[View all talks →]({{ '/talks/' | relative_url }})
 {% else %}
 _No publications yet._
 {% endif %}
