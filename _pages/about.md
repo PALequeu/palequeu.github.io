@@ -26,6 +26,18 @@ _No publications yet._
 {% endif %}
 
 
+## Latest Talk
+{% assign talks = site.talks | sort: 'date' | reverse | slice: 0, 1 %}
+{% if talks.size > 0 %}
+{% for pub in talks %}
+- [{{ pub.title }}]({{ pub.url | relative_url }}){% if pub.venue %} — *{{ pub.venue }}*{% endif %}{% if pub.date %} ({{ pub.date | date: "%Y" }}){% endif %}{% if pub.authors %}<br/><small>{{ pub.authors }}</small>{% endif %}
+{% endfor %}
+[View all publications →]({{ '/publications/' | relative_url }})
+{% else %}
+_No publications yet._
+{% endif %}
+
+
 
 <!-- 
 
