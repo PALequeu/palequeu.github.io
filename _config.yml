@@ -90,10 +90,11 @@ publication_category:
     title: 'Journal Articles'    
   conferences:
     title: 'Conference Papers'
-  frenchconferences:
-    title: 'French Conferences Papers'
   preprints:
     title: 'Preprints'
+  frenchconferences:
+    title: 'French Conferences Papers'
+  
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
