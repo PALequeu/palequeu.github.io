@@ -21,6 +21,18 @@ Otherwise, my life interests are [music](https://www.youtube.com/watch?v=BnEgnrU
 
 
 
+## News
+{% assign all_news = site.news | sort: 'date' | reverse %}
+{% assign news = all_news | slice: 0, 2 %}
+{% if news.size > 0 %}
+{% for item in news %}
+- **{{ item.date | date: "%d/%m/%Y" }}**: {{ item.title | default: item.content | strip_html | strip }}
+{% endfor %}
+[View all news →]({{ '/news/' | relative_url }})
+{% else %}
+_No news yet._
+{% endif %}
+
 ## Latest Published Publication
 {% assign conf_pubs = site.publications | where: "category", "conferences" %}
 {% assign jour_pubs = site.publications | where: "category", "journals" %}
@@ -34,19 +46,6 @@ Otherwise, my life interests are [music](https://www.youtube.com/watch?v=BnEgnrU
 [View all publications →]({{ '/publications/' | relative_url }})
 {% else %}
 _No publications yet._
-{% endif %}
-
-## Latest News
-{% assign all_news = site.news | sort: 'date' | reverse %}
-{% assign news = all_news | slice: 0, 2 %}
-{% if news.size > 0 %}
-{% for item in news %}
-{% if item.link %}{% assign item_url = item.link %}{% else %}{% assign item_url = item.url | relative_url %}{% endif %}
-- [{{ item.title }}]({{ item_url }}){% if item.date %} ({{ item.date | date: "%B %d, %Y" }}){% endif %}{% if item.excerpt and item.excerpt != "" %}<br/><small>{{ item.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}</small>{% endif %}
-{% endfor %}
-[View all news →]({{ '/news/' | relative_url }})
-{% else %}
-_No news yet._
 {% endif %}
 
 ## Latest Talk

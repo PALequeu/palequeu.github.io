@@ -8,8 +8,19 @@ author_profile: true
 {% include base_path %}
 
 {% assign news = site.news | sort: 'date' | reverse %}
-{% for post in news %}
-  {% include archive-single.html %}
+{% if news.size > 0 %}
+  <ul>
+  {% for item in news %}
+    <li style="margin-bottom: 0.75em;">
+      <strong>{{ item.date | date: "%d/%m/%Y" }}</strong>: {{ item.title | default: item.content | strip_html | strip }}
+      {% if item.content and item.title and item.content != "" %}
+        <div style="margin-top: 0.25em; font-size: 0.9em; opacity: 0.85;">
+          {{ item.content | markdownify }}
+        </div>
+      {% endif %}
+    </li>
+  {% endfor %}
+  </ul>
 {% else %}
   <p>No news yet.</p>
-{% endfor %}
+{% endif %}
