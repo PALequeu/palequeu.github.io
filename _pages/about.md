@@ -7,14 +7,21 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD student at Sorbonne University, Paris, France under the supervision of [Benjamin Piwowarksi](https://www.piwowarski.fr/) at the ISIR laboratory. My PhD topic tackles the **Fair and Explainable Automatic Summarization of Political Debates**, with a focus on large scale citizens consultations. This PhD is part of the [Democratic Commons](https://about.make.org/democratic-commons/landing-page) project, in parternship with SciencesPo university and [Make.org](make.org). I am also a teacher assistant at Sorbonne University for bachelor and masters students.
+I am on my last year as a PhD student at Sorbonne University, Paris, France under the supervision of [Benjamin Piwowarksi](https://www.piwowarski.fr/) at the ISIR laboratory. My PhD topic tackles the **Fair and Explainable Automatic Summarization of Political Debates**, with a focus on **large-scale citizens consultations**. My PhD project is part of the [Democratic Commons](https://about.make.org/democratic-commons/landing-page) initiative, in parternship with SciencesPo university and [Make.org](make.org).   
+I am also a teacher assistant at Sorbonne University for bachelor students and at the [MIND master Program](https://mind.sorbonne-universite.fr/).
+
+My main research interest is to **understand (1) how Large Language Models work and (2) how they affect society, and in particular democracies**. I believe these two to be very much related tasks.  
+- Concerning the former, my current work focuses on **how model use positional information**, with a long term objective to design more explicit positional encoding methods (See [Give It Space!](https://palequeu.github.io/publication/give_it_space)).  
+- For the latter, I work on AI-aided deliberation, citizen consultations, and collective decision-making. We designed Corpus Clarification as locally-runnable opinions corpora preprocessing method to facilitate their analysis and released GDN-CC-large, a French corpus of 240k preprocessed opinions for the *Grand Débat National* Consultation (See [GDN-CC](https://palequeu.github.io/publication/GDNCC)). In another work, we show that recommender systems significantly distort the *opinion landscape* when infering participant's preferences (Under review, see [Collective-Centric evaluation](https://arxiv.org/abs/2609.02990)).   
+
+I would be more than happy to exchange on my (or your) work and collaborate. You can contact me at \[last-name\]@isir.upmc.fr on which i should answer fairly quickly.  
+ I am also looking for opportunities starting November 2027 as post-doc or research scientist in AI-enhanced democracies, collective decision making, or related fields. 
+
+Otherwise, my life interests are [music](https://www.youtube.com/watch?v=BnEgnrUCXPY&list=RDBnEgnrUCXPY&start_radio=1), drawing, and overall anything art :)  
 
 
-My research interests focus on bias and ethics of generative AI, explainable systems, and more recently on positional encoding in Transformers. My life interests are [music](https://www.youtube.com/watch?v=BnEgnrUCXPY&list=RDBnEgnrUCXPY&start_radio=1), drawing, and overall anything art :)  
 
-
-
-## Latest Publication
+## Latest Published Publication
 {% assign pubs = site.publications | sort: 'date' | reverse | slice: 0, 1 %}
 {% if pubs.size > 0 %}
 {% for pub in pubs %}
