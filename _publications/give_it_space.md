@@ -4,7 +4,7 @@ collection: publications
 category: conferences
 permalink: /publication/give_it_space
 excerpt: "[Preprint](https://arxiv.org/abs/2605.30022) -  explored how encoder-based models use absolute positional (AP) and relative positional (RP) information by explicitly disentangling positional and semantic representations. We find that the learned AP representations are low dimensional and used to encode document structure, while RP information is used as complementary to semantic matching."
-date: 2026-10-24
+date: 2026-24-10
 venue: 'EMNLP'
 slidesurl: #'https://palequeu.github.io/files/slides1.pdf'
 paperurl: 'https://palequeu.github.io/files/give_it_space.pdf'
