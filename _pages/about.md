@@ -22,7 +22,8 @@ Otherwise, my life interests are [music](https://www.youtube.com/watch?v=BnEgnrU
 
 
 ## Latest Published Publication
-{% assign pubs = site.publications | sort: 'date' | reverse | slice: 0, 1 %}
+{% assign filtered_pubs = site.publications | where_exp: "pub", "pub.category == 'conferences' or pub.category == 'journals'" %}
+{% assign pubs = filtered_pubs | sort: 'date' | reverse | slice: 0, 1 %}
 {% if pubs.size > 0 %}
 {% for pub in pubs %}
 - [{{ pub.title }}]({{ pub.url | relative_url }}){% if pub.venue %} — *{{ pub.venue }}*{% endif %}{% if pub.date %} ({{ pub.date | date: "%Y" }}){% endif %}{% if pub.authors %}<br/><small>{{ pub.authors }}</small>{% endif %}
@@ -31,7 +32,6 @@ Otherwise, my life interests are [music](https://www.youtube.com/watch?v=BnEgnrU
 {% else %}
 _No publications yet._
 {% endif %}
-
 
 ## Latest Talk
 {% assign talks = site.talks | sort: 'date' | reverse | slice: 0, 1 %}

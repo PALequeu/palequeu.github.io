@@ -4,7 +4,7 @@ collection: publications
 category: preprints
 permalink: /publication/collective_centric
 excerpt: "[Preprint](https://arxiv.org/abs/2609.02990) -  Designed a new evaluation paradigm for preference inference and showed that recommender systems strongly distort the opinion landscape despite showing good results on standard metrics such as accuracy."
-date: #2026-10-24
+date: 2026-09-02
 venue: 'preprint'
 slidesurl: #'https://palequeu.github.io/files/slides1.pdf'
 paperurl: 'https://palequeu.github.io/files/collective_centric.pdf'
