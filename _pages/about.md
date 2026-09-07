@@ -26,7 +26,7 @@ Otherwise, my life interests are [music](https://www.youtube.com/watch?v=BnEgnrU
 {% assign news = all_news | slice: 0, 3 %}
 {% if news.size > 0 %}
 {% for item in news %}
-✨ **`{{ item.date | date: "%d/%m/%Y" }}`** 〰️ {{ item.title | default: item.content | strip_html | strip }}
+✨ **`{{ item.date | date: "%d/%m/%Y" }}`** - {{ item.title | default: item.content | strip_html | strip }}
 {% endfor %}
 
 <br/>
