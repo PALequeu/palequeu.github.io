@@ -92,6 +92,8 @@ publication_category:
     title: 'Conference Papers'
   frenchconferences:
     title: 'French Conferences Papers'
+  preprints:
+    title: 'preprints'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
