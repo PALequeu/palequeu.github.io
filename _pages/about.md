@@ -22,7 +22,9 @@ Otherwise, my life interests are [music](https://www.youtube.com/watch?v=BnEgnrU
 
 
 ## Latest Published Publication
-{% assign filtered_pubs = site.publications | where_exp: "pub", "pub.category == 'conferences' or pub.category == 'journals'" %}
+{% assign conf_pubs = site.publications | where: "category", "conferences" %}
+{% assign jour_pubs = site.publications | where: "category", "journals" %}
+{% assign filtered_pubs = conf_pubs | concat: jour_pubs %}
 {% assign pubs = filtered_pubs | sort: 'date' | reverse | slice: 0, 1 %}
 
 {% if pubs.size > 0 %}
