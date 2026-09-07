@@ -1,5 +1,5 @@
 ---
-title: "We just published a new Preprint: [Toward Collective-Centric Evaluation of Preference Inference](https://arxiv.org/abs/2609.02990)"
+title: "We just published a new Preprint: [Toward Collective-Centric Evaluation of Preference Inference](https://arxiv.org/abs/2609.02990)."
 date: 2026-09-02
 collection: news
 ---

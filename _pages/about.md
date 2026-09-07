@@ -23,17 +23,19 @@ Otherwise, my life interests are [music](https://www.youtube.com/watch?v=BnEgnrU
 
 ## News
 {% assign all_news = site.news | sort: 'date' | reverse %}
-{% assign news = all_news | slice: 0, 2 %}
+{% assign news = all_news | slice: 0, 3 %}
 {% if news.size > 0 %}
 {% for item in news %}
-- **{{ item.date | date: "%d/%m/%Y" }}**: {{ item.title | default: item.content | strip_html | strip }}
+✨ **`{{ item.date | date: "%d/%m/%Y" }}`** 〰️ {{ item.title | default: item.content | strip_html | strip }}
 {% endfor %}
-[View all news →]({{ '/news/' | relative_url }})
+
+<br/>
+**[Catch up on all news →]({{ '/news/' | relative_url }})**
 {% else %}
-_No news yet._
+📭 _No news yet. Stay tuned!_
 {% endif %}
 
-## Latest Published Publication
+<!-- ## Latest Published Publication
 {% assign conf_pubs = site.publications | where: "category", "conferences" %}
 {% assign jour_pubs = site.publications | where: "category", "journals" %}
 {% assign filtered_pubs = conf_pubs | concat: jour_pubs %}
@@ -58,7 +60,7 @@ _No publications yet._
 {% else %}
 _No talks yet._
 {% endif %}
-
+ -->
 
 
 <!-- 
