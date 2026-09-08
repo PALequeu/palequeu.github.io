@@ -1,5 +1,5 @@
 ---
-title: "Talk at ISIR Young Scientists Day"
+title: "I gave a talk at ISIR Young Scientists Day on our work on the GDN-CC dataset"
 date: 2026-05-26
 collection: news
 ---
