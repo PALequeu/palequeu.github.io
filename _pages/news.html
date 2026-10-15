@@ -9,12 +9,12 @@ author_profile: true
 
 {% assign news = site.news | sort: 'date' | reverse %}
 {% if news.size > 0 %}
-  <ul>
+  <ul style="list-style: none; padding-left: 0;">
   {% for item in news %}
     <li style="margin-bottom: 0.75em;">
-      <strong>{{ item.date | date: "%d/%m/%Y" }}</strong>: {{ item.title | default: item.content | strip_html | strip }}
+      ✨ <strong><code>{{ item.date | date: "%d/%m/%Y" }}</code></strong> - {{ item.title | default: item.content | markdownify | remove: '<p>' | remove: '</p>' }}
       {% if item.content and item.title and item.content != "" %}
-        <div style="margin-top: 0.25em; font-size: 0.9em; opacity: 0.85;">
+        <div style="margin-top: 0.25em; margin-left: 2em; font-size: 0.9em; opacity: 0.85;">
           {{ item.content | markdownify }}
         </div>
       {% endif %}
@@ -22,5 +22,5 @@ author_profile: true
   {% endfor %}
   </ul>
 {% else %}
-  <p>No news yet.</p>
+  <p>📭 <em>No news yet. Stay tuned!</em></p>
 {% endif %}
