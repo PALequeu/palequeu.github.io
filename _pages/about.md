@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am on my last year as a PhD student at Sorbonne University, Paris, France under the supervision of [Benjamin Piwowarksi](https://www.piwowarski.fr/) at the ISIR laboratory. My PhD topic tackles the **Fair and Explainable Automatic Summarization of Political Debates**, with a focus on **large-scale citizens consultations**. My PhD project is part of the [Democratic Commons](https://about.make.org/democratic-commons/landing-page) initiative, in parternship with SciencesPo university and [Make.org](make.org).   
+I am on my last year as a PhD student at Sorbonne University, Paris, France under the supervision of [Benjamin Piwowarski](https://www.piwowarski.fr/) at the ISIR laboratory. My PhD topic tackles the **Fair and Explainable Automatic Summarization of Political Debates**, with a focus on **large-scale citizens consultations**. My PhD project is part of the [Democratic Commons](https://about.make.org/democratic-commons/landing-page) initiative, in parternship with SciencesPo university and [Make.org](make.org).   
 I am also a teacher assistant at Sorbonne University for bachelor students and at the [MIND master Program](https://mind.sorbonne-universite.fr/).
 
 My main research interests are to **understand (1) how Large Language Models work and (2) how they affect society, and in particular democracies**. I believe these two to be very much related tasks.  
